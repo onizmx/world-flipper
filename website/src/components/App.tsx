@@ -13,7 +13,7 @@ export const App = () => {
             <Box w='200px'>
               <Navigator />
             </Box>
-            <Box position='relative' flex={{ base: 1 }} overflow='hidden'>
+            <Box position='relative' flex={{ base: 1 }} overflow='hidden' bg='#dfdfdf'>
               <Pages />
             </Box>
           </Flex>

@@ -9,7 +9,7 @@ export const Home = () => {
         <title>{routeConfig.home.name}</title>
         <link rel='canonical' href={domain + routeConfig.home.path} />
       </Helmet>
-      <Box w='100%' h='100%' bg='#dfdfdf'>
+      <Box w='100%' h='100%'>
         Home
       </Box>
     </>

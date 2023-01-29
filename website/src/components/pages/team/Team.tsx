@@ -9,7 +9,7 @@ export const Team = () => {
         <title>{routeConfig.team.name}</title>
         <link rel='canonical' href={domain + routeConfig.team.path} />
       </Helmet>
-      <Box w='100%' h='100%' bg='#dfdfdf'>
+      <Box w='100%' h='100%'>
         Team
       </Box>
     </>

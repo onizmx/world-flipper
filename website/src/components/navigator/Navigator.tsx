@@ -11,7 +11,7 @@ export const Navigator = () => {
   return (
     <SimpleGrid>
       {routes.map((route: Route) => {
-        const borderColor: string = location.pathname === route.path ? '#fda01d' : 'transparent';
+        const borderColor: string = location.pathname === route.path ? '#ff9f17' : 'transparent';
 
         return (
           <Box key={route.name} w='100%' padding='8px' border='4px solid' borderColor={borderColor}>

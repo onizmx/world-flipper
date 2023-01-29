@@ -9,7 +9,7 @@ export const Character = () => {
         <title>{routeConfig.character.name}</title>
         <link rel='canonical' href={domain + routeConfig.character.path} />
       </Helmet>
-      <Box w='100%' h='100%' bg='#dfdfdf'>
+      <Box w='100%' h='100%'>
         Character
       </Box>
     </>
